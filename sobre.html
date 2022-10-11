@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Urban Street Page!</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="logo.png" Alt="logo.png"  class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just a common brand<br>It's <span>Urban</span></h2>
+                <p>Urban is a store created by 6 students with the purpose of giving you comfort, and making you elegant with fashion along with our clothes from our partner HIGH COMPANY.</p>
+                <a href="#">know store</a>
+            </div>
+        <div class="imgBox">
+            <img src="blu2.png" class="Urban">
+        </div>
+     </div>
+     <ul class="thumb">
+        <li><img src="thumb1.png" onclick="imgSlider"('images/img1.png')></a></li>
+        <li><img src="thumb2.png" onclick="imgSlider"('images/img2.png')></li>
+        <li><img src="thumb3.png" onclick="imgSlider"('images/img3.png')></li>
+     </ul>
+     <ul class="sci">
+        <li><a href="#"><img src="facebook.png"></a></li>
+        <li><a href="#"><img src="twitter.png"></a></li>
+        <li><a href="#"><img src="instagram.png"></a></li>
+     </ul>
+    </section>
+
+    <script type="text/javascript">
+      function imgSlider(anything){
+        document.querySelector('.Urban').src = anything
+      }
+    </script>
+</body>
+</html>
